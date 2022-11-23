@@ -1,0 +1,14 @@
+:root {
+	--bgcolor: #111A28;
+	--1bgcolor: #0C121D;
+    --2bgcolor: #000000;
+    --bheader: #5B63B7;
+    --textcolor: #fefefe;
+    --1textcolor: #fff;
+
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bgcolor);
+}
