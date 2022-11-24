@@ -33,6 +33,10 @@ a {
     gap: 5vw;
 }
 
+.section3, .section4 {
+    padding: 5vw 5vw;
+}
+
 .title {
     color: var(--bheader);
     font-size: 2vw;
@@ -193,12 +197,23 @@ a {
     height: 40vw;
 }
 
-.section3 {
-    padding: 5vw 5vw;
-}
+
 
 .all_skills {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.pclassifications {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+
+.ptitem {
+    background-color: var(--1bgcolor);
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
 }
