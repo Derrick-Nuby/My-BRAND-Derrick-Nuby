@@ -37,6 +37,7 @@ body{
     gap: 2vw;
     font-size: 1.6vw;
     align-items: center;
+    padding-right: 1vw;
 }
 
 
@@ -50,7 +51,6 @@ body{
 .menu_item6 {
     background-color: var(--bgcolor);
     padding: 10px 12px;
-    /* border: 3px solid red; */
     border-radius: 7px;
     cursor: pointer;
     
@@ -60,6 +60,8 @@ body{
 .menu_item6:hover {
     background-color: var(--bheader);
     color: var(--1bgcolor);
+    font-size: 1.7vw;
+    transition: 500ms;
 }
 
 .logo {
@@ -67,6 +69,7 @@ body{
     font-weight: 900;
     align-items: center;
     padding-bottom: 1vw;
+    padding-left: 3vw;
 }
 
 .logo:hover {
@@ -76,4 +79,79 @@ body{
 .logo > span {
     font-size: 6.1vw;
     align-items: center;
+}
+
+/* end of menu */
+
+.section1 {
+    padding: 5vw 5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+.left {
+    padding-top: 5vw;
+}
+
+.hello {
+    color: var(--bheader);
+    font-weight: 600;
+    font-size: 1.6vw;
+    padding-bottom: 5px;
+}
+
+.name {
+    font-size: 6vw;
+    font-weight: 800;
+}
+
+.work {
+    color: var(--bheader);
+    font-size: 2.3vw;
+    font-weight: 800;
+    padding-bottom: 6px;
+    padding-top: 20px;
+}
+
+.tasks {
+    font-weight: 500;
+}
+
+.tasks > span {
+    color: var(--bheader);
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    padding-top: 3vw;
+    align-items: center;
+}
+
+.button {
+        background-color: var(--1bgcolor);
+        padding: 15px 15px;
+        border-radius: 7px;
+        cursor: pointer;
+        font-weight: 600;
+}
+
+.button:hover {
+    background-color: var(--bheader);
+    color: var(--1bgcolor);
+    font-size: 1.4vw;
+    transition: 500ms;
+}
+
+.right {
+
+}
+.right > img {
+    height: 25vw;
+    margin-left: 10vw;
+    margin-top: 3vw;
+    border-radius: 25px;
 }
