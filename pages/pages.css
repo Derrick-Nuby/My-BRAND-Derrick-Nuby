@@ -1,0 +1,191 @@
+/* start of global */
+:root {
+	--bgcolor: #111A28;
+	--1bgcolor: #0C121D;
+    --2bgcolor: #000000;
+    --bheader: #5B63B7;
+    --textcolor: #fefefe;
+    --1textcolor: #fff;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bgcolor);
+    box-sizing: border-box;
+    color: var(--textcolor);
+    font-size: 1.3vw;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+
+.title {
+    color: var(--bheader);
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 4vw 0vw;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    padding-top: 4vw;
+    align-items: center;
+}
+
+.header {
+    background-color: var(--1bgcolor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 10%; */
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.normal_text {
+    line-height: 1.7;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    font-size: 1.6vw;
+    align-items: center;
+    padding-right: 1vw;
+
+}
+
+
+.menu_item1:hover, .menu_item2:hover, .menu_item3:hover, .menu_item4:hover, .menu_item5:hover {
+    cursor: pointer;
+    font-size: 1.7vw;
+    color: var(--bheader);
+    transition: 800ms;
+}
+
+.menu_item6 {
+    background-color: var(--bgcolor);
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    
+}
+
+.menu_item6:hover {
+    background-color: var(--bheader);
+    color: var(--1bgcolor);
+    font-size: 1.7vw;
+    transition: 500ms;
+}
+
+.logo {
+    font-size: 5vw;
+    font-weight: 900;
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+}
+
+.logo:hover {
+    color: var(--bheader);
+    cursor: pointer;
+    transition: 500ms;
+}
+.logo > span {
+    font-size: 6.1vw;
+    align-items: center;
+}
+
+.button {
+    background-color: var(--1bgcolor);
+    padding: 15px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button:hover {
+background-color: var(--bheader);
+color: var(--1bgcolor);
+font-size: 1.4vw;
+transition: 500ms;
+}
+
+.button2 {
+    background-color: var(--bgcolor);
+    padding: 15px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: 400;
+    /* margin: 0vw 7vw; */
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 0vw;
+    text-align: center;
+}
+
+.button2:hover {
+    background-color: var(--bheader);
+    color: var(--1bgcolor);
+    font-size: 1.35vw;
+    transition: 500ms;
+}
+
+/* end of global */
+
+/* about page */
+
+/* start of section 1 about page */
+
+.main {
+    padding: 5vw;
+}
+.section1_abt {
+    display: flex;
+    gap: 2vw;
+}
+
+.abt_left2 > img {
+    height: 30vw;
+}
+
+.hello {
+    color: var(--bheader);
+    font-weight: 600;
+    font-size: 1.9vw;
+    padding-bottom: 5px;
+}
+
+.name {
+    font-size: 6vw;
+    font-weight: 800;
+}
+
+.work {
+    color: var(--bheader);
+    font-size: 2.3vw;
+    font-weight: 800;
+    padding-bottom: 6px;
+    padding-top: 20px;
+}
+
+.tasks {
+    font-weight: 500;
+}
+
+.tasks > span {
+    color: var(--bheader);
+    font-size: 25px;
+    padding-left: 20px;
+}
