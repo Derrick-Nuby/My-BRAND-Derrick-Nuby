@@ -446,3 +446,27 @@ a {
 .par {
     text-align: center;
 }
+
+.sides {
+    background-color: var(--1bgcolor);
+    padding: 3vw;
+    margin-top: 2vw;
+    border-radius: 0px 6px 6px 0px;
+    font-size: 2vw;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.bigpart {
+    background-color: var(--1bgcolor);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.container {
+    display: flex;
+    gap: 5vw;
+    padding-top: 5vw;
+}
