@@ -447,12 +447,20 @@ a {
     text-align: center;
 }
 
+.sides:hover {
+    background-color: var(--bheader);
+    color: var(--1bgcolor);
+    font-size: 1.4vw;
+    transition: 500ms;
+    cursor: pointer;
+}
+
 .sides {
     background-color: var(--1bgcolor);
     padding: 3vw;
     margin-top: 2vw;
     border-radius: 0px 6px 6px 0px;
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 
 .sidebar {
@@ -469,4 +477,6 @@ a {
     display: flex;
     gap: 5vw;
     padding-top: 5vw;
+    padding-bottom: 10vw;
+    padding-right: 5vw;
 }
