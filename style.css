@@ -65,7 +65,7 @@ a {
 }
 
 .normal_text {
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 
@@ -418,6 +418,7 @@ a {
     margin-top: 1vw;
 }
 
+
 .this_form > .fltem {
     float: inline-start;
     
@@ -440,7 +441,12 @@ a {
     display: flex;
     gap: 10vw;
     justify-content: center;
+    align-items: center;
     padding-top: 5vw;
+}
+
+.small_text {
+    font-weight: 100;
 }
 
 .par {
@@ -479,4 +485,42 @@ a {
     padding-top: 5vw;
     padding-bottom: 10vw;
     padding-right: 5vw;
+}
+
+.footer_sec {
+    background-color: var(--1bgcolor);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vw;
+    height: 6vw;
+    align-items: center;
+    /* padding: 0px 20px; */
+}
+
+.fmenu_item6 {
+    background-color: var(--bgcolor);
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    
+}
+
+.menu_item6:hover {
+    background-color: var(--bheader);
+    color: var(--1bgcolor);
+    font-size: 1.7vw;
+    transition: 500ms;
+}
+
+.fmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 9vw;
+    font-size: 1.6vw;
+    align-items: center;
+    justify-items: center;
+    padding-right: 1vw;
+
 }
