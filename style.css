@@ -203,6 +203,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: 700;
 }
 
 .pclassifications {
@@ -217,3 +218,75 @@ a {
     border-radius: 7px;
     cursor: pointer;
 }
+
+.frow {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    padding-top: 2vw;
+}
+
+.srow {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    padding-top: 2vw;
+}
+.inside {
+    background-color: var(--1bgcolor);
+    width: 26vw;
+ /* height: 6vw;    */
+    border-radius: 6px;
+    padding-bottom: 0px;
+
+}
+.skill {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+    padding-bottom: 0px;
+}
+
+.text {
+    padding: 15px;
+}
+
+.percent {
+    border-radius: 5px;
+    padding: 0.7vw;
+    margin-top: 1vw;
+    /* padding-top: 0.7vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+    padding-bottom: 0.7vw; */
+    background-color: var(--bheader);
+    font-size: 15;
+}
+
+.inside > hr {
+    border: 10px solid var(--bheader);
+    border-radius: 8px;
+    margin-top: 2vw;
+    margin-bottom: 0vw;
+}
+
+.html_skill, .git_skills > hr {
+    margin-right: 2vw;
+}
+
+.css_skill > hr {
+    margin-right: 3vw;
+}
+
+.JS_skill > hr {
+    margin-right: 10vw;
+}
+
+.Node_skill > hr {
+    margin-right: 17vw;
+}
+
+.hosting_skill > hr {
+    margin-right: 3vw;
+}
+
