@@ -33,7 +33,7 @@ a {
     gap: 5vw;
 }
 
-.section3, .section4, .section5, .section6 {
+.section3, .section4, .section5, .section6, .section7 {
     padding: 2vw 5vw;
 }
 
@@ -429,4 +429,20 @@ a {
 
 .but_down {
     padding-top: 5vw;
+}
+
+.sec7flex {
+    display: flex;
+    gap: 10vw;
+}
+
+.follow_me {
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    padding-top: 5vw;
+}
+
+.par {
+    text-align: center;
 }
