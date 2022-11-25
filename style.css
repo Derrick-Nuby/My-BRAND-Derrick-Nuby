@@ -206,19 +206,6 @@ a {
     font-weight: 700;
 }
 
-.pclassifications {
-    display: flex;
-    flex-direction: row;
-    gap: 4vw;
-}
-
-.ptitem {
-    background-color: var(--1bgcolor);
-    padding: 10px 15px;
-    border-radius: 7px;
-    cursor: pointer;
-}
-
 .frow {
     display: flex;
     flex-direction: row;
@@ -290,3 +277,19 @@ a {
     margin-right: 3vw;
 }
 
+.pclassifications {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+
+.ptitem {
+    background-color: var(--1bgcolor);
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.project_descr {
+    background-color: var(--1bgcolor);
+}
