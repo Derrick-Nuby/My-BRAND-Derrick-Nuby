@@ -46,7 +46,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* height: 10%; */
+    height: 5.9vw;
     align-items: center;
     padding: 0px 20px;
 }
@@ -141,7 +141,6 @@ transition: 500ms;
     font-size: 1.35vw;
     transition: 500ms;
 }
-
 /* end of global */
 
 /* about page */
@@ -154,6 +153,10 @@ transition: 500ms;
 .section1_abt {
     display: flex;
     gap: 2vw;
+}
+
+.section2_abt {
+    padding-top: 8vw;
 }
 
 .abt_left2 > img {
@@ -188,4 +191,10 @@ transition: 500ms;
     color: var(--bheader);
     font-size: 25px;
     padding-left: 20px;
+}
+
+.section2_abt_flexes, .section3_abt_flexes, .section4_abt_flexes, .section5_abt_flexes, .section6_abt_flexes, .section7_abt_flexes {
+    display: flex;
+    gap: 7vw;
+    align-items: center;
 }
