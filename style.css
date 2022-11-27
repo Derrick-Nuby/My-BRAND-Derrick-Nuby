@@ -1,10 +1,17 @@
 :root {
 	--bgcolor: #111A28;
 	--1bgcolor: #0C121D;
-    --2bgcolor: #000000;
     --bheader: #5B63B7;
     --textcolor: #fefefe;
-    --1textcolor: #fff;
+    --formbgcolor: #eeeeee;
+
+    /* --bgcolor: #55585c;
+    --1bgcolor: #0C121D;
+    --bheader: #5B63B7;
+    --textcolor: #000000;
+    --formbgcolor: #111A28; */
+
+
 
 }
 
@@ -413,7 +420,7 @@ a {
     border-radius: 8px;
     border: 1px solid var(--bheader);
     outline: none;
-    background: #eeeeee;
+    background: var(--formbgcolor);
     align-items: flex-start;
     margin-top: 1vw;
 }
@@ -523,4 +530,9 @@ a {
     justify-items: center;
     padding-right: 1vw;
 
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
 }
