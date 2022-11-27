@@ -58,6 +58,8 @@ a {
     height: 5.9vw;
     align-items: center;
     padding: 0px 20px;
+    position: relative;
+    z-index: 100;
     /* position: fixed;
     width: 100%; */
 }
@@ -167,11 +169,13 @@ transition: 500ms;
     font-weight: 600;
     font-size: 1.9vw;
     padding-bottom: 5px;
+    position: relative;
 }
 
 .name {
     font-size: 6vw;
     font-weight: 800;
+    position: relative;
 }
 
 .work {
@@ -180,79 +184,55 @@ transition: 500ms;
     font-weight: 800;
     padding-bottom: 6px;
     padding-top: 20px;
+    position: relative;
 }
 
 .tasks {
     font-weight: 500;
+    position: relative;
 }
 
 .tasks > span {
     color: var(--bheader);
     font-size: 25px;
     padding-left: 20px;
+    position: relative;
 }
 /* end of global */
 
-/* about page */
 
-/* start of section 1 about page */
 
-.main {
-    padding: 5vw;
+
+
+.thetext {
+    text-align: center;
+    z-index: 10;
 }
-.section1_abt {
+
+.section1_blog {
     display: flex;
-    gap: 2vw;
-}
-
-.section2_abt {
-    padding-top: 8vw;
-}
-
-.abt_left2 > img {
-    height: 30vw;
-}
-
-.section1_prj {
-    display: flex;
-    gap: 10vw;
-    align-items: center;
-}
-
-.section2_prj {
-    padding-top: 8vw;
-}
-
-.prj_left2 > img {
-    height: 30vw;
-}
-
-.section2_abt_flexes, .section3_abt_flexes, .section4_abt_flexes, .section5_abt_flexes, .section6_abt_flexes, .section7_abt_flexes {
-    display: flex;
-    gap: 7vw;
-    align-items: center;
-}
-
-.section2_prj_flexes, .section3_prj_flexes, .section4_prj_flexes, .section5_prj_flexes, .section6_prj_flexes, .section7_prj_flexes {
-    display: flex;
-    gap: 7vw;
     align-items: center;
     justify-content: center;
+    height: 85vh;
 }
 
-.section2_prj_flexes, .section4_prj_flexes, .section6_prj_flexes {
-    background-color: var(--1bgcolor);
-    padding: 5vw;
-    border-radius: 20px 0px 20px 0px;
+.thetext::before {
+    content: "";
+    background-image: url(../images/nubelson-fernandes-Y376h7VN27c-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
 }
 
-.section2_prj_right > img {
-    height: 16vw;
-}
-
-.section3_prj_right > img {
-    height: 19vw;
-}
-.section4_prj_right > img {
-    height: 17vw;
-}
+/* .hello {
+    position: relative;
+    color: #ffffff;  
+    font-size: 14rem;
+    line-height: 0.9;
+    text-align: center;
+  } */
