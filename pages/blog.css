@@ -6,6 +6,7 @@
     --bheader: #5B63B7;
     --textcolor: #fefefe;
     --1textcolor: #fff;
+    --borderradius: 7px;
 
 }
 
@@ -49,6 +50,8 @@ a {
     padding-top: 4vw;
     align-items: center;
 }
+
+
 
 .header {
     background-color: var(--1bgcolor);
@@ -238,5 +241,127 @@ transition: 500ms;
   } */
 
 .section2_blog {
-    padding: 10vw 5vw;
+    margin: 1vw 5vw;
+    padding: 2vw 2vw;
+    background-color: var(--1bgcolor);
+    border-radius: var(--borderradius);
+}
+
+.title--center {
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 3vw;
+}
+
+.section2__featured {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.title__colored {
+    color: var(--bheader);
+}
+
+.btn__mod {
+    background-color: var(--bgcolor);
+}
+
+.all_blogs {
+    display: flex;
+    gap: 3vw;
+    padding-top: 5vw;
+    justify-content: center;
+}
+
+.blog_descr {
+    background-color: var(--bgcolor);
+    height: 40vw;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+.title3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 1vw;
+    color: var(--bheader);
+}
+
+.blog_descr > p {
+    padding: 1.5vw;
+    text-align: justify;
+    font-size: 1vw;
+}
+
+.sec6 {
+    display: flex;
+    gap: 5vw;
+}
+.btn__modified {
+    background-color: var(--1bgcolor);
+}
+
+.middle__text {
+    text-align: center;
+}
+
+.blog_list {
+    list-style: none;
+    list-style-image: url('../images/comp.png');
+}
+
+.blog_list li {
+    margin-top: 1vw;
+}
+
+.text_section_as_blog {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer_sec {
+    background-color: var(--1bgcolor);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vw;
+    height: 6vw;
+    align-items: center;
+    /* padding: 0px 20px; */
+}
+
+.fmenu_item6 {
+    background-color: var(--bgcolor);
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    
+}
+
+.menu_item6:hover {
+    background-color: var(--bheader);
+    color: var(--1bgcolor);
+    font-size: 1.7vw;
+    transition: 500ms;
+}
+
+.fmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 9vw;
+    font-size: 1.6vw;
+    align-items: center;
+    justify-items: center;
+    padding-right: 1vw;
+
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
 }

@@ -3,16 +3,7 @@
 	--1bgcolor: #0C121D;
     --bheader: #5B63B7;
     --textcolor: #fefefe;
-    --formbgcolor: #eeeeee;
-
-    /* --bgcolor: ##f5f6f7;
-    --1bgcolor: #0C121D;
-    --bheader: #5B63B7;
-    --textcolor: #000000;
-    --formbgcolor: #111A28; */
-
-
-
+    --formbgcolor: #eeeeee; 
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
