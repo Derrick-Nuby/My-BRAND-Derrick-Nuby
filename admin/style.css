@@ -409,25 +409,7 @@ transition: 500ms;
     color: white;
 }
 
-button {
-    background-color: var(--1bgcolor);
-    padding: 10px 15px;
-    border-radius: 7px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 20px;
-    width: 100px;
-    text-align: center;
-}
 
-button:hover {
-background-color: var(--bheader);
-color: black;
-font-size: 1.6vw;
-transition: 500ms;
-}
 /*  */
 
 .container {
@@ -516,4 +498,87 @@ transition: 500ms;
 
 .detail_box_security{
     width: 100%;
+}
+
+.detail_box_contact_signups {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+table {
+    font-size: 14px;
+    font-weight: 200;
+
+}
+
+.content_table {
+    border-collapse: collapse;
+    margin: 23px 23px;
+    /* padding: 20px 20px; */
+    /* font-size: 15px; */
+    min-width: 300px;
+    font-weight: 100px;
+}
+
+.content_table thead tr {
+    background-color: #eeeeee;
+    color: black;
+    padding: 12px 0px;
+    /* text-align: left; */
+    font-weight: bold;
+    border-right: 1px solid #eeeeee;
+}
+
+.content_table th,
+.content_table td {
+    padding: 7px 5px;
+    border-right: 1px solid #eeeeee;
+}
+
+.content_table tbody tr {
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    font-weight: 100px;
+}
+
+.modified {
+    justify-content: center;
+    align-items: center;
+}
+
+.flexin {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: var(--1bgcolor);
+    padding: 3px 7px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 20px;
+    width: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+button:hover {
+background-color: var(--bheader);
+color: black;
+font-size: 1.6vw;
+transition: 500ms;
+}
+
+label {
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+textarea {
+    margin-top: 10px;
 }
