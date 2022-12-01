@@ -118,9 +118,19 @@ a {
     cursor: pointer;
     transition: 500ms;
 }
-.logo > span {
+.logo > #n {
     font-size: 6.1vw;
     align-items: center;
+}
+
+.small_cont {
+    font-size: 2vw;
+    color: var(--bheader);
+}
+
+.small_cont:hover {
+    font-size: 2vw;
+    color: var(--1textcolor);
 }
 
 .btncent {
@@ -419,50 +429,91 @@ font-size: 1.6vw;
 transition: 500ms;
 }
 /*  */
-/*  */
-/*  */
-.input_comment_section {
+
+.container {
     display: flex;
-    margin: 5vw;
     gap: 5vw;
-    justify-content: space-around;
 }
 
-.block_form {
-    display: flex;
-    flex-direction: column;
-    gap: 2vw;
-    justify-content: center;
-    align-items: flex-end;
-}
 
-.side_box {
+.sidebar {
     background-color: var(--1bgcolor);
-    padding: 2vw 4vw;
-    border-radius: var(--borderradius);
+    width: 20%;
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    /* padding-bottom: 160px; */
+    font-size: 25px;
+}
+
+.sides {
+    background-color: #5b63b741;
+    padding: 10px 20px;
+    border-bottom: 1px solid #5B63B7;
+    cursor: pointer;
+}
+
+.sides:hover {
+    background-color: var(--bheader);
+    width: 85%;
+    transition: 500ms;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 26px;
+}
+
+.bigpart {
+    background-color: var(--1bgcolor);
+    /* margin-top: 100px; */
+    margin-top: 50px;
+    margin-right: 5vw;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px 30px;
+    width: 80%;
+}
+
+.bigs {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
+
+.detail_box {
+    background-color: #5b63b741;
+    width: 49%;
+    border-radius: 7px;
+}
+
+.detail_box_welcome {
+    width: 100%;
+    padding: 30px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.welcome {
+    text-align: center;
+}
+
+.welcome span {
+    color: var(--bheader);
+    font-size: 40px;
+}
+
+.welcome .new {
+    font-size: 10px;
+}
+
+.item_title {
+    text-align: center;
+    color: var(--bheader);
+    font-weight: 600;
+    font-size: larger;
     margin-top: 10px;
 }
 
-.side_box:hover {
-    cursor: pointer;
-    background-color: var(--bheader);
-    color: black;
-    font-size: 1.4vw;
-    transition: 500ms;
+.down_flex {
+    display: flex;
+    font-size: 14px;
 }
 
-.title__comment {
-    padding: 0px;
-    font-size: 15px;
-}
-
-.one_comment p {
-    font-size: 15px;
-}
-
-.one_comment  {
-    background-color: var(--1bgcolor);
-    padding: 2vw;
-    margin: 3vw 5vw;
-    border-radius: var(--borderradius);
+.detail_box_security{
+    width: 100%;
 }
