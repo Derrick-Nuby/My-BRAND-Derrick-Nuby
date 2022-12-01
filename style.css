@@ -527,3 +527,17 @@ a {
     width: 30px;
     cursor: pointer;
 }
+
+.container {
+    width: 50%;
+    height: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--1bgcolor);
+}
+
+.container .form2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}

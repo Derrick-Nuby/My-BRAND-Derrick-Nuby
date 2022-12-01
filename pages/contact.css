@@ -1,0 +1,201 @@
+:root {
+	--bgcolor: #111A28;
+	--1bgcolor: #0C121D;
+    --bheader: #5B63B7;
+    --textcolor: #fefefe;
+    --formbgcolor: #eeeeee; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bgcolor);
+    box-sizing: border-box;
+    color: var(--textcolor);
+    font-size: 1.3vw;
+    font-family: 'Inter', sans-serif;
+}
+/* universal */
+
+a {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+
+.section1, .section2 {
+    padding: 5vw 5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.section3, .section4, .section5, .section6, .section7 {
+    padding: 2vw 5vw;
+}
+
+.title {
+    color: var(--bheader);
+    font-size: 2vw;
+    font-weight: 700;
+    padding: 4vw 0vw;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    padding-top: 4vw;
+    align-items: center;
+}
+
+/* end of universal */
+
+.header {
+    background-color: var(--1bgcolor);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5.9vw;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.normal_text {
+    line-height: 1.7;
+}
+
+
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    font-size: 1.6vw;
+    align-items: center;
+    padding-right: 1vw;
+
+}
+
+
+.menu_item1:hover, .menu_item2:hover, .menu_item3:hover, .menu_item4:hover, .menu_item5:hover {
+    cursor: pointer;
+    font-size: 1.7vw;
+    color: var(--bheader);
+    transition: 800ms;
+}
+
+.menu_item6 {
+    background-color: var(--bgcolor);
+    padding: 10px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+    
+}
+
+.menu_item6:hover {
+    background-color: var(--bheader);
+    color: var(--1bgcolor);
+    font-size: 1.7vw;
+    transition: 500ms;
+}
+
+.logo {
+    font-size: 5vw;
+    font-weight: 900;
+    align-items: center;
+    padding-bottom: 1vw;
+    padding-left: 3vw;
+}
+
+.logo:hover {
+    color: var(--bheader);
+    cursor: pointer;
+    transition: 500ms;
+}
+.logo > span {
+    font-size: 6.1vw;
+    align-items: center;
+}
+
+/* end of menu */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+.real_form {
+    background-color: var(--1bgcolor);
+    width: 40%;
+    padding: 30px;
+    max-width: 800px;
+    min-width: 400px;
+    padding: 30px 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 7px;
+}
+
+.input_group label {
+    font-size: 20px;
+    font-weight: light;
+}
+
+.input_group input {
+    background-color: #eeeeee;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
+
+.input_group input:focus {
+    border: none;
+    background-color: none;
+    outline: none;
+    background-color: #5b63b71f;
+    color: #eeeeee;
+}
+
+.butt_sub {
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    width: 50%;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.butt_sub:hover {
+background-color: var(--bheader);
+color: var(--1bgcolor);
+font-size: 1.7vw;
+transition: 500ms;
+}
+
+.butt_sub:active {
+    background-color: var(--formbgcolor);
+    color: var(--1bgcolor);
+    font-size: 1vw;
+    transition: 500ms;
+}
