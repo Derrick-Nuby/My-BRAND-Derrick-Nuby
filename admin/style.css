@@ -128,6 +128,12 @@ a {
     color: var(--bheader);
 }
 
+.Homecon > img {
+    padding: 0px;
+    margin: 0px;
+    height: 35px;
+}
+
 .small_cont:hover {
     font-size: 2vw;
     color: var(--1textcolor);
