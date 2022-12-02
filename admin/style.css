@@ -442,6 +442,13 @@ transition: 500ms;
     font-size: 26px;
 }
 
+.active {
+    background-color: var(--bheader);
+    width: 85%;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 26px;
+}
+
 .bigpart {
     background-color: var(--1bgcolor);
     /* margin-top: 100px; */
@@ -661,4 +668,8 @@ textarea {
     border-radius: 5px;
 
 
+}
+.down_bt {
+    margin-bottom: 10px;
+    width: 40%;
 }
