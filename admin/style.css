@@ -516,6 +516,9 @@ transition: 500ms;
 .detail_box_contact_signups {
     font-size: 30px;
     font-weight: lighter;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 table {
@@ -531,6 +534,7 @@ table {
     /* font-size: 15px; */
     min-width: 300px;
     font-weight: 100px;
+    width: 90%;
 }
 
 .content_table thead tr {
@@ -563,6 +567,10 @@ table {
 .flexin {
     display: flex;
     flex-direction: column;
+}
+
+.detail_box_Email {
+    width: 100%;
 }
 
 button {
