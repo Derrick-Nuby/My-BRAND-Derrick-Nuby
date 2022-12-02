@@ -256,6 +256,11 @@ transition: 500ms;
 .section4_prj_right > img {
     height: 17vw;
 }
+
+.section2_abt_right > img {
+    height: 35vw;
+    border-radius: 40px;
+}
 .logincon {
     height: 35px;
     border-radius: 20px;
