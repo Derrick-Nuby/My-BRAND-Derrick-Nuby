@@ -121,14 +121,26 @@ a {
     align-items: center;
 }
 
+.logincon {
+    height: 35px;
+    border-radius: 20px;
+}
+
+.logincon:hover {
+    background-color: #eeeeee;
+    transition: 500ms;
+    height: 33px;
+}
+
 /* end of menu */
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 85vh;
-    width: 100vw;
+    /* height: 85vh; */
+    /* width: 100vw; */
+    margin: 30px 0px;
 }
 
 .real_form {
@@ -198,4 +210,12 @@ transition: 500ms;
     color: var(--1bgcolor);
     font-size: 1vw;
     transition: 500ms;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+
 }

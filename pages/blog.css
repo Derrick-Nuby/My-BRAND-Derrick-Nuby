@@ -365,3 +365,14 @@ transition: 500ms;
     width: 30px;
     cursor: pointer;
 }
+
+.logincon {
+    height: 35px;
+    border-radius: 20px;
+}
+
+.logincon:hover {
+    background-color: #eeeeee;
+    transition: 500ms;
+    height: 33px;
+}

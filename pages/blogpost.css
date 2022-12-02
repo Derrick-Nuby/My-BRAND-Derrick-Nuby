@@ -98,6 +98,17 @@ a {
     
 }
 
+.logincon {
+    height: 35px;
+    border-radius: 20px;
+}
+
+.logincon:hover {
+    background-color: #eeeeee;
+    transition: 500ms;
+    height: 33px;
+}
+
 .menu_item6:hover {
     background-color: var(--bheader);
     color: var(--1bgcolor);

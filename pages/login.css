@@ -1,4 +1,5 @@
 :root {
+    :root {
 	--bgcolor: #111A28;
 	--1bgcolor: #0C121D;
     --bheader: #5B63B7;
@@ -24,18 +25,16 @@ a {
     color: var(--textcolor);
 }
 
-.section1 {
+.section1, .section2 {
     padding: 5vw 5vw;
     display: flex;
     flex-direction: row;
-    /* gap: 3vw; */
+    gap: 5vw;
 }
 
 .section3, .section4, .section5, .section6, .section7 {
     padding: 2vw 5vw;
 }
-
-
 
 .title {
     color: var(--bheader);
@@ -125,69 +124,82 @@ a {
 
 /* end of menu */
 
-
-.left {
-    padding-top: 5vw;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
 }
 
-.hello {
-    color: var(--bheader);
+.real_form {
+    background-color: var(--1bgcolor);
+    width: 40%;
+    padding: 30px;
+    max-width: 800px;
+    min-width: 400px;
+    padding: 30px 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input_group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 7px;
+}
+
+.input_group label {
+    font-size: 20px;
+    font-weight: light;
+}
+
+.input_group input {
+    background-color: #eeeeee;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 7px 5px;
+    border-radius: 5px;
+}
+
+.input_group input:focus {
+    border: none;
+    background-color: none;
+    outline: none;
+    background-color: #5b63b71f;
+    color: #eeeeee;
+}
+
+.butt_sub {
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 15px;
+    cursor: pointer;
+    width: 50%;
+    font-size: larger;
     font-weight: 600;
-    font-size: 1.6vw;
-    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
-.name {
-    font-size: 6vw;
-    font-weight: 800;
+.butt_sub:hover {
+background-color: var(--bheader);
+color: var(--1bgcolor);
+font-size: 1.7vw;
+transition: 500ms;
 }
 
-.work {
-    color: var(--bheader);
-    font-size: 2.3vw;
-    font-weight: 800;
-    padding-bottom: 6px;
-    padding-top: 20px;
-}
-
-
-
-.tasks {
-    font-weight: 500;
-}
-
-.tasks > span {
-    color: var(--bheader);
-    font-size: 25px;
-    padding-left: 20px;
-}
-
-
-
-.button {
-        background-color: var(--1bgcolor);
-        padding: 15px 15px;
-        border-radius: 7px;
-        cursor: pointer;
-        font-weight: 600;
-}
-
-.button:hover {
-    background-color: var(--bheader);
+.butt_sub:active {
+    background-color: var(--formbgcolor);
     color: var(--1bgcolor);
-    font-size: 1.4vw;
+    font-size: 1vw;
     transition: 500ms;
 }
-
-/* .right {
-
-} */
-.right > img {
-    height: 45vw;
-    margin-left: 10vw;
-    margin-top: 3vw;
-}
-
 .logincon {
     height: 35px;
     border-radius: 20px;

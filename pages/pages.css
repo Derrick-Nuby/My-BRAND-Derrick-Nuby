@@ -256,3 +256,13 @@ transition: 500ms;
 .section4_prj_right > img {
     height: 17vw;
 }
+.logincon {
+    height: 35px;
+    border-radius: 20px;
+}
+
+.logincon:hover {
+    background-color: #eeeeee;
+    transition: 500ms;
+    height: 33px;
+}
