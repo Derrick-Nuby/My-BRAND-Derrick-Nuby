@@ -317,6 +317,13 @@ transition: 500ms;
     margin-top: 1vw;
 }
 
+.blog_list li:hover {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 500ms;
+    color: var(--bheader);
+}
+
 .text_section_as_blog {
     display: flex;
     justify-content: space-around;
