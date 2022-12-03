@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact-me|Derrick-Nuby</title>
+    <title>Create Account | Derrick-Nuby</title>
     <link rel="stylesheet" href="./signup.css">
 </head>
 <body>
@@ -40,24 +40,29 @@
         <div class="container">
             <div class="real_form">
                 <h2>Create Account</h2>
-                <div class="input_group">
-                    <label>First Name</label>
-                    <input type="text">
-                </div>
-                <div class="input_group">
-                    <label> Last Name</label>
-                    <input type="text">
-                </div>
-                <div class="input_group">
-                    <label> Email</label>
-                    <input type="email">
-                </div>
-                <div class="input_group">
-                    <label>PassWord</label>
-                    <input type="password">
-                </div>
+                
+                <form role="form" onsubmit="signUp(event);" autocomplete="off">
+                    <div class="input_group">
+                        <label>First Name</label>
+                        <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                    </div>
+                    <div class="input_group">
+                        <label> Last Name</label>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div class="input_group">
+                        <label> Email</label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="input_group">
+                        <label>PassWord</label>
+                        <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+                    </div>
+                    <center class="signup">Already have an account? <a href="./login.html"><span>Log-In</span> Instead</a></center>
                 <center>
-                <button type="submit" class="butt_sub">Create Account</button></center>
+                    <center>
+                    <button type="submit" class="butt_sub">Create Account</button></center>
+                </form>
             </div>
         </div>
     </div>
@@ -66,6 +71,6 @@
         
     </div>
 
-    
+  <script type="text/javascript" src="./app.js"></script>  
 </body>
 </html>
