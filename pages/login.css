@@ -231,3 +231,15 @@ transition: 500ms;
     font-weight: light;
     display: none;
 }
+
+.modi {
+    font-size: 17px;
+    color: var(--1bgcolor);
+}
+
+.modi a {
+    cursor: pointer;
+    color: var(--bheader);
+    /* font-size: 12px; */
+    font-weight: bold;
+}
