@@ -211,3 +211,14 @@ transition: 500ms;
     font-size: 1vw;
     transition: 500ms;
 }
+
+.signup {
+    margin-top: 15px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.signup span {
+    color: var(--bheader);
+    cursor: pointer;
+}
