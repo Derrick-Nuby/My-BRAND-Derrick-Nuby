@@ -276,7 +276,7 @@ transition: 500ms;
 
 .blog_descr {
     background-color: var(--bgcolor);
-    height: 40vw;
+    /* height: 40vw; */
     align-items: center;
     border-radius: 8px;
 }
@@ -328,6 +328,33 @@ transition: 500ms;
     display: flex;
     justify-content: space-around;
 }
+
+
+.interactions {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.intcon {
+    border: 2px solid var(--bheader);
+    border-radius: 50px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.intcon img {
+
+    height: 15px;
+    /* padding: 10px; */
+}
+
+.intcon:hover {
+    border: 2px solid var(--1textcolor);
+}
+
 
 
 .footer_sec {

@@ -455,7 +455,14 @@ transition: 500ms;
     padding: 2vw 4vw;
     border-radius: var(--borderradius);
     margin-top: 10px;
+    align-items: center;
 }
+
+.side_box > img {
+    align-items: center;
+    padding-right: 10px;
+}
+
 
 .side_box:hover {
     cursor: pointer;
