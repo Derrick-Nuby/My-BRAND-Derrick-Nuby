@@ -123,6 +123,7 @@ a {
 .logincon {
     height: 35px;
     border-radius: 20px;
+    /* display: none; */
 }
 
 .logincon:hover {
@@ -131,6 +132,54 @@ a {
     height: 33px;
 }
 /* end of menu */
+
+.loggedin {
+    background-color: var(--bheader);
+    padding: 10px 3px;
+    /* display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 5px;
+    margin: 0px;
+    gap: 5px; */
+    /* text-align: right; */
+    /* width: fit-content; */
+    position: fixed; 
+    right: 0px;
+    border-radius: 3px 0px 0px 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.logoletter {
+    background-color: black;
+    padding: 7px 10px;
+    border-radius: 500px;
+    /* margin: 7px 0px; */
+}
+
+.logcorner {
+    background-color: var(--bheader);
+    font-size: 14px;
+    cursor: pointer;
+    padding: 11px;
+    border-radius: 500px;
+    border: 3px solid;
+    line-height: 10px;
+    margin: 0px;
+    display: none;
+}
+
+.logcorner:hover {
+    background-color: var(--1bgcolor);
+    font-size: 20px;
+    color: var(--bheader);
+    transition: 200ms;
+    border-color: var(--bheader);
+    font-weight: bolder2;
+    line-height: 14px;
+}
+
 
 
 .left {

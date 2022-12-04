@@ -3,7 +3,7 @@ let lname  = document.getElementById('lname');
 let email = document.getElementById('email');
 let pwd = document.getElementById('pwd');
 let errors = document.getElementById('errors')
-// let signbtn = document.getElementById('signbtn');
+let signbtn = document.getElementById('signbtn');
 
 let loginBtn = document.getElementById('logIntoAccount');
 
@@ -29,7 +29,7 @@ let createAccount = () => {
     }
 }
 
-loginBtn.addEventListener('click', (e) => {
+signbtn.addEventListener('click', (e) => {
     e.preventDefault();
     login();
 });

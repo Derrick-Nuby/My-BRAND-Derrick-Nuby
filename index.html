@@ -31,11 +31,13 @@
                 <div class="menu_item6"> Hire-Me</div>
             </a>
             <a href="./pages/login.html"><img class="logincon" src="./images/logincon.png" alt=""login></a>
+            
+            <div class="logcorner">D</div>
         </div>
     </div>
-
+    <div class="loggedin" id="loggedin"><span class="logoletter">D</span> <span>Derrick</span></div>
+    <p id="adminName"></p>
     <div class="main">
-
         <div class="section1">
             <div class="left">
                 <div class="hello"> Hello World! I am</div>
@@ -426,5 +428,9 @@
         </div>
     </div>
 </body>
-<script src="app.js"></script>
+<script>
+    let admin = document.getElementById('adminName');
+     let user = document.cookie; // cookie of logged in user
+     admin.innerText = user.slice(6); // Displaying username
+</script>
 </html>
