@@ -4,6 +4,7 @@ let email = document.getElementById('email');
 let pwd = document.getElementById('pwd');
 let errors = document.getElementById('errors');
 let fill = document.getElementById('fill');
+let hidden = document.getElementById('hidden');
 
 let loginBtn = document.getElementById('logIntoAccount');//loginbutton
 
@@ -14,7 +15,6 @@ if (localStorage.getItem('account') != null) {
 } else {
     var account = [];
 }
-
 
 let createAccount = () => {
     if (fname.value == '' || lname.value == '' || email.value == '' || pwd.value == '') {
@@ -52,7 +52,8 @@ let login = ()=> {
             for (let person of account) {
                 if (person.Email == email.value && person.pass == pwd.value) {
                     document.cookie = `user= ${person.FirstName}; expires= Dec 20 2022 00:00:00`;
-                    window.location.href = '../index.html';
+                    window.location.href = './blogpost.html';
+                    hidden.style.display = 'block';
                     break;
                 } else {
                     errors.style.display = 'block';
