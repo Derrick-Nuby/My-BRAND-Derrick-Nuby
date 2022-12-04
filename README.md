@@ -1,8 +1,13 @@
 > ![GitHub language count](https://img.shields.io/github/languages/count/Derrick-Nuby/My-BRAND-Derrick-Nuby)    ![GitHub top language](https://img.shields.io/github/languages/top/Derrick-Nuby/My-BRAND-Derrick-Nuby) ![Website](https://img.shields.io/website?up_message=active&url=https%3A%2F%2Fderrick-nuby.github.io%2FMy-BRAND-Derrick-Nuby%2F)  ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/Derrick-Nuby/My-BRAND-Derrick-Nuby) ![GitHub last commit](https://img.shields.io/github/last-commit/Derrick-Nuby/My-BRAND-Derrick-Nuby) ![Twitter Follow](https://img.shields.io/twitter/follow/derricknuby?style=social) ![GitHub Repo stars](https://img.shields.io/github/stars/Derrick-Nuby/My-BRAND-Derrick-Nuby?style=social)
 
+
+
+<h1 align="center">
+<a href="https://derrick-nuby.github.io/My-BRAND-Derrick-Nuby/" TARGET="_blank" rel="noreferrer noopener"> Full Project | Personal Portfolio Website</a> </h1>
+
 # My Personal Portfolio Website
 
-![Portfolio image showcasing](./images/MyPortfolioDesign.png)
+![Portfolio image showcasing](../images/MyPortfolioDesign.png)
 
 ## Why Portfolio Website
 
