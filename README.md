@@ -7,7 +7,7 @@
 
 # My Personal Portfolio Website
 
-![Portfolio image showcasing](../images/MyPortfolioDesign.png)
+![Portfolio image showcasing](./images/MyPortfolioDesign.png)
 
 ## Why Portfolio Website
 
