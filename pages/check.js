@@ -6,6 +6,7 @@ let errors = document.getElementById('errors');
 let fill = document.getElementById('fill');
 let hidden = document.getElementById('hidden');
 
+
 let loginBtn = document.getElementById('logIntoAccount');//loginbutton
 
 
@@ -63,4 +64,3 @@ let login = ()=> {
         }
     }
 }
-

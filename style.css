@@ -368,11 +368,12 @@ a {
     display: flex;
     gap: 5vw;
     padding-top: 5vw;
+    /* width: 28vw; */
 }
 
 .blog_descr {
     background-color: var(--1bgcolor);
-    height: 40vw;
+    /* height: 40vw; */
     align-items: center;
     border-radius: 8px;
 }
@@ -390,6 +391,29 @@ a {
     padding: 1.5vw;
     text-align: justify;
     font-size: 1vw;
+}
+
+
+.interactions {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: flex-end;
+}
+
+.intcon {
+    border: 2px solid var(--bheader);
+    border-radius: 50px;
+}
+
+.intcon img  {
+    cursor: pointer;
+    height: 15px;
+    padding: 10px;
+}
+
+.intcon:hover {
+    border: 2px solid var(--formbgcolor);
 }
 
 .sec6 {
