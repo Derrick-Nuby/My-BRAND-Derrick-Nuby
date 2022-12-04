@@ -2,12 +2,14 @@
 
 
 
-<h1 align="center">
-<a href="https://derrick-nuby.github.io/My-BRAND-Derrick-Nuby/" TARGET="_blank" rel="noreferrer noopener"> Full Project | Personal Portfolio Website</a> </h1>
 
 # My Personal Portfolio Website
 
 ![Portfolio image showcasing](./images/MyPortfolioDesign.png)
+<br>
+<h1 align="center">
+<a href="https://derrick-nuby.github.io/My-BRAND-Derrick-Nuby/" TARGET="_blank" rel="noreferrer noopener"> Full Project | Personal Portfolio Website</a> </h1>
+<br>
 
 ## Why Portfolio Website
 
