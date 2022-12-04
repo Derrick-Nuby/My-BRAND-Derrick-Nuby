@@ -27,8 +27,8 @@ let createAccount = () => {
             Email: email.value,
             pass: pwd.value
         })
-        window.location.href = '../pages/blog.html';
         localStorage.setItem('account', JSON.stringify(account));
+        window.location.href = './login.html';
     }
 }
 
