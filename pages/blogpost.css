@@ -42,6 +42,9 @@ a {
     text-align: center;
 }
 
+#hidden {
+    display: none;
+}
 
 .btns {
     display: flex;
