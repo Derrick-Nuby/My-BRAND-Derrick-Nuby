@@ -231,6 +231,16 @@ transition: 500ms;
     font-weight: light;
     display: none;
 }
+#fill {
+    background-color: var(--formbgcolor);
+    color: red;
+    text-align: center;
+    padding: 20px 5px;
+    border-radius: var(--border-radius, 7px);
+    font-size: 20px;
+    font-weight: light;
+    display: none;
+}
 
 .modi {
     font-size: 17px;

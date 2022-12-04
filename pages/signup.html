@@ -40,8 +40,13 @@
         <div class="container">
             <div class="real_form">
                 <h2>Create Account</h2>
+
+                <div id="fill">
+                    You left some inputs blank!! Please Fill All Inputs
+                </div>
                 
-                <form role="form" onsubmit="signUp(event);" autocomplete="off">
+                <!-- <form role="form" onsubmit="signUp(event);" autocomplete="off"> -->
+                    <form autocomplete="off">
                     <div class="input_group">
                         <label>First Name</label>
                         <input type="text" name="fname" id="fname" placeholder="First Name" required>
@@ -61,7 +66,7 @@
                     <center class="signup">Already have an account? <a href="./login.html"><span>Log-In</span> Instead</a></center>
                 <center>
                     <center>
-                    <button type="submit" class="butt_sub">Create Account</button></center>
+                    <button type="submit" class="butt_sub" id="createAccount">Create Account</button></center>
                 </form>
             </div>
         </div>
@@ -71,6 +76,13 @@
         
     </div>
 
-  <script type="text/javascript" src="./app.js"></script>  
+  <script src="./check.js"></script>
+  <script>
+      let createBtn = document.getElementById('createAccount'); // Create account button
+      createBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          createAccount();
+      })
+  </script> 
 </body>
 </html>
