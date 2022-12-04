@@ -61,7 +61,7 @@
                     <center class="signup">Already have an account? <a href="./login.html"><span>Log-In</span> Instead</a></center>
                 <center>
                     <center>
-                    <button type="submit" class="butt_sub">Create Account</button></center>
+                    <button type="submit" class="butt_sub" id="createAccount">Create Account</button></center>
                 </form>
             </div>
         </div>
@@ -71,6 +71,13 @@
         
     </div>
 
-  <script type="text/javascript" src="./app.js"></script>  
+  <script type="text/javascript" src="./check.js"></script> 
+  <script>
+    let createBtn = document.getElementById('createAccount'); // Create account button
+    createBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        createAccount();
+    })
+</script> 
 </body>
 </html>
