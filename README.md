@@ -2,7 +2,7 @@
 
 # My Personal Portfolio Website
 
-I will be building my personal website. for showing people who am i, my skills, my project and much more as time goes.
+![Portfolio image showcasing](./images/MyPortfolioDesign.png)
 
 ## Why Portfolio Website
 
