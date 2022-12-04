@@ -472,6 +472,11 @@ transition: 500ms;
     transition: 500ms;
 }
 
+.posted_comments {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .title__comment {
     padding: 0px;
     font-size: 15px;

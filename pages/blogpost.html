@@ -75,21 +75,21 @@
             <div class="input_comment_section">
                 <div class="input_comment_section_left" id="hidden" >
                     <div class="block_form" id="hidden">
-                        <input type="text" class="name_area" placeholder="Your Name">
-                    <textarea name="txt_Ar" class="Text_area" cols="30" rows="10" placeholder="Write your comment here"></textarea>
-                    <button type="submit" >Post</button>
+                        <input type="text" class="name_area" id="cname" placeholder="Your Name">
+                    <textarea name="txt_Ar" class="Text_area" id="ctext" cols="30" rows="10" placeholder="Write your comment here"></textarea>
+                    <button type="submit" id="csubmit">Post</button>
                     </div>
                 </div>
                 <div class="input_comment_section_right">
                     <div class="side_box"><a href="./login.html"><img src="../images/comments.png" alt="">Comment</a></div>
-                    <div class="side_box"> <img src="../images/likes.png" alt=""> Like</div>
+                    <div class="side_box" id="like"> <img src="../images/likes.png" alt=""> Like <span id="counter">0</span></div>
                     <div class="side_box"> Log In With Google</div>
                 </div>
             </div>
         </div>
-
-        <div class="posted_comments">
-            <div class="title title_center">comments</div>
+<div class="title title_center">comments</div>
+        <div class="posted_comments" id="posted_comments">
+            
             <div class="one_comment">
                 <span class="title title__comment">Blaise IRAKOZE</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, soluta aspernatur eligendi placeat pariatur error molestiae unde omnis cumque iusto ab iure fuga architecto et ex, quasi similique ad fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor iste harum incidunt placeat alias neque facilis inventore distinctio aliquid quia deserunt dicta omnis recusandae tenetur ab dolorum, error, totam quo!</p>
@@ -127,6 +127,6 @@
             </div>
         </div>
     </div>
-    <script src="./check.js"></script>
+    <script src="./blog.js"></script>
 </body>
 </html>
