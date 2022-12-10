@@ -198,3 +198,90 @@ a {
     transition: 500ms;
     height: 33px;
 }
+
+@media (max-width: 480px), (min-width: 320px ), (max-width: 768px)  {
+    body {
+        text-align: center;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        font-size: 40px;
+        font-weight: 900;
+        align-items: center;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+    }
+    
+    .logo:hover {
+        color: var(--bheader);
+        cursor: pointer;
+        transition: 500ms;
+    }
+    .logo > span {
+        font-size: 50px;
+        align-items: center;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+    }
+    .section1 {
+        padding: 5vw 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* gap: 3vw; */
+    }
+    .right > img {
+        padding: 0px;
+        margin: 0px;
+        height: 600px;
+        margin-top: 3vw;
+    }
+    .hello {
+        color: var(--bheader);
+        font-weight: 600;
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .name {
+        font-size: 6vw;
+        text-align: center;
+        font-weight: 800;
+    }
+    .work {
+        color: var(--bheader);
+        font-size: 7px;
+        font-weight: 800;
+        text-align: center;
+        padding-bottom: 6px;
+        padding-top: 20px;
+    }
+    .tasks {
+        font-weight: 500;
+        font-size: 9px;
+    }
+
+    .button {
+        font-size: 10px;
+    }
+    
+    .tasks > span {
+        color: var(--bheader);
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .title {
+        color: var(--bheader);
+        font-size: 15px;
+        font-weight: 700;
+        /* padding: 4vw 0vw; */
+        text-align: center;
+    }
+}
