@@ -259,7 +259,7 @@ transition: 500ms;
 
 .section2_abt_right > img {
     height: 35vw;
-    border-radius: 40px;
+    border-radius: 5px;
 }
 .logincon {
     height: 35px;
@@ -270,4 +270,109 @@ transition: 500ms;
     background-color: #eeeeee;
     transition: 500ms;
     height: 33px;
+}
+
+
+
+
+    @media (max-width: 480px), (min-width: 320px ), (max-width: 768px)  {
+        .menu {
+            display: none;
+        }
+        .logo {
+            font-size: 40px;
+            font-weight: 900;
+            align-items: center;
+            padding-bottom: 1vw;
+            padding-left: 3vw;
+        }
+        
+        .logo:hover {
+            color: var(--bheader);
+            cursor: pointer;
+            transition: 500ms;
+        }
+        .logo > span {
+            font-size: 50px;
+            align-items: center;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 45px;
+        }
+        .section1_abt {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 2vw;
+        }
+        .hello {
+            color: var(--bheader);
+            font-weight: 600;
+            font-size: 10px;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+        .name {
+            font-size: 6vw;
+            text-align: center;
+            font-weight: 800;
+        }
+        .work {
+            color: var(--bheader);
+            font-size: 7px;
+            font-weight: 800;
+            text-align: center;
+            padding-bottom: 6px;
+            padding-top: 20px;
+        }
+        .tasks {
+            font-weight: 500;
+            font-size: 9px;
+        }
+    
+        .button {
+            font-size: 10px;
+        }
+        
+        .tasks > span {
+            color: var(--bheader);
+            font-size: 14px;
+            padding-left: 20px;
+        }
+        .title {
+            color: var(--bheader);
+            font-size: 15px;
+            font-weight: 700;
+            /* padding: 4vw 0vw; */
+            text-align: center;
+        }
+        .section2_abt_right > img {
+            height: 30vw;
+            border-radius: 0px;
+        }
+        img {
+            border-radius: 0px;
+        }
+        .normal_text {
+            line-height: 1.7;
+            font-size: 10px;
+            text-align: center;
+        }
+        .section2_abt_flexes, .section4_abt_flexes, .section6_abt_flexes {
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 7vw;
+            align-items: center;
+        }
+
+        .section3_abt_flexes, .section5_abt_flexes, .section7_abt_flexes {
+            display: flex;
+            flex-direction: column;
+            gap: 7vw;
+            align-items: center;
+        }
 }
