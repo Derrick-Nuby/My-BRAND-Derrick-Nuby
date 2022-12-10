@@ -219,3 +219,78 @@ textarea {
     font-family: 'Inter', sans-serif;
 
 }
+
+@media (max-width: 480px), (min-width: 320px ), (max-width: 768px)  {
+    .menu {
+        display: none;
+    }
+    .logo {
+        font-size: 40px;
+        font-weight: 900;
+        align-items: center;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        text-align: center;
+    }
+    
+    .logo:hover {
+        color: var(--bheader);
+        cursor: pointer;
+        transition: 500ms;
+    }
+    .logo > span {
+        font-size: 50px;
+        align-items: center;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 45px;
+        padding: 0px;
+        /* display: none; */
+    }
+    .container {
+        width: auto;
+        /* display: none; */
+    }
+    .real_form {
+        background-color: var(--1bgcolor);
+        width: auto;
+    }
+    .input_group {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        gap: 7px;
+    }
+    
+    .input_group label {
+        font-size: 14px;
+        font-weight: light;
+    }
+    
+    .input_group input {
+        background-color: #eeeeee;
+        border: none;
+        width: 270px;
+        font-size: 10px;
+        padding: 5px 3px;
+        border-radius: 3px;
+    }
+    
+    .input_group input:focus {
+        border: none;
+        background-color: none;
+        outline: none;
+        background-color: #5b63b71f;
+        color: #eeeeee;
+    }
+    textarea {
+        margin-top: 20px;
+        width: 270px;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+    
+    }
+}
