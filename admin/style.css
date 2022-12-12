@@ -687,3 +687,72 @@ textarea {
     margin-bottom: 10px;
     width: 40%;
 }
+
+/* table */
+
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: var(--bheader);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 8px 12px;
+}
+
+.content-table tbody tr {
+    border-bottom: 2px solid var(--bheader);
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: var(--bgcolor);
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--bheader);
+}
+
+tr  td:nth-child(1), tr  th:nth-child(1) {
+    border-left: 2px solid var(--bheader);
+}
+
+tr  td:nth-child(4), tr  th:nth-child(4) {
+    border-right: 2px solid var(--bheader);
+}
+
+tr  td:nth-child(3), tr  th:nth-child(3) {
+    width: 150px;
+}
+
+.full_body {
+    width: 100%;
+}
+
+.flex_blog {
+    display: flex;
+    justify-content: space-around;
+}
+
+td span {
+    background-color: red;
+    padding: 5px 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
